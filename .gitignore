@@ -1,0 +1,10 @@
+node_modules/
+docs/.vitepress/dist/
+docs/.vitepress/cache/
+.DS_Store
+Thumbs.db
+
+# 个人隐私信息 - 不提交到 GitHub
+docs/.vitepress/user-info.json
+docs/.vitepress/user-info.ts
+scripts/inject-user-info.ts

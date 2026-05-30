@@ -1,0 +1,110 @@
+/* 中文字体优化 */
+:root {
+  --vp-font-family-base: 'PingFang SC', 'Microsoft YaHei', 'Hiragino Sans GB',
+    'WenQuanYi Micro Hei', -apple-system, BlinkMacSystemFont, sans-serif;
+  --vp-font-family-mono: 'Cascadia Code', 'Fira Code', 'JetBrains Mono',
+    'Source Code Pro', monospace;
+
+  /* 中文文本需要更大的行高 */
+  --vp-layout-max-width: 1440px;
+}
+
+/* 正文优化 */
+.vp-doc {
+  font-size: 16px;
+  line-height: 1.8;
+}
+
+/* 段落间距 */
+.vp-doc p {
+  margin: 0.8em 0;
+}
+
+/* 表格样式 */
+.vp-doc table {
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+.vp-doc th {
+  white-space: nowrap;
+  background: var(--vp-c-bg-soft);
+}
+
+/* 链接样式 */
+.vp-doc a {
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.vp-doc a:hover {
+  text-decoration: underline;
+}
+
+/* 自定义容器 */
+.vp-doc .custom-block {
+  margin: 1.5em 0;
+  padding: 1em 1.25em;
+  border-radius: 6px;
+  font-size: 15px;
+  line-height: 1.7;
+}
+
+/* 标签样式 */
+.tag {
+  display: inline-block;
+  padding: 2px 8px;
+  margin: 0 4px 4px 0;
+  border-radius: 4px;
+  font-size: 12px;
+  font-weight: 500;
+  background: var(--vp-c-brand-soft);
+  color: var(--vp-c-brand);
+}
+
+.tag-green {
+  background: #e6f7e6;
+  color: #389e0d;
+}
+
+.tag-orange {
+  background: #fff7e6;
+  color: #d46b08;
+}
+
+.tag-blue {
+  background: #e6f7ff;
+  color: #096dd9;
+}
+
+/* 卡片样式 */
+.card-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.5rem;
+  margin: 2rem 0;
+}
+
+.card {
+  border: 1px solid var(--vp-c-divider);
+  border-radius: 8px;
+  padding: 1.5rem;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+  border-color: var(--vp-c-brand);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+.card h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0.5rem 0 0;
+  font-size: 14px;
+  color: var(--vp-c-text-2);
+  line-height: 1.6;
+}

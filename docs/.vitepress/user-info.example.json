@@ -1,0 +1,10 @@
+{
+  "name": "[你的姓名]",
+  "nameEn": "[Your Name]",
+  "email": "[your-email@example.com]",
+  "phone": "[your-phone]",
+  "location": "[你的城市]",
+  "birth": "[出生年月]",
+  "educationSummary": "[你的教育背景摘要]",
+  "researchInterests": "[研究方向1、方向2]"
+}

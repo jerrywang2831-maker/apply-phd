@@ -1,0 +1,24 @@
+{
+  "name": "apply-job",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main_chunk.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs",
+    "private": "node scripts/replace-placeholders.mjs --real",
+    "public": "node scripts/replace-placeholders.mjs --public"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.34"
+  }
+}
