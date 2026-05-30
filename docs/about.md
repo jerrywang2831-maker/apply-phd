@@ -21,7 +21,7 @@ description: 网站目的、申请人简介与学术背景
 
 | 学位 | 学校 | 时间 | 专业 |
 |------|------|------|------|
-| 硕士 | {{educationSummary}} |
+| 硕士 | 帝国理工学院 (Imperial College London) 生物医学工程（神经技术方向）硕士 | 伦敦大学学院 (University College London) 医用物理 本科 |
 
 ### 研究经历
 

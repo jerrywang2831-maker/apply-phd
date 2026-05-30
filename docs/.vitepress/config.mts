@@ -4,6 +4,7 @@ export default defineConfig({
   lang: 'zh-CN',
   title: '中国顶尖高校博士申请指南',
   description: '神经工程/生物医学工程方向2026年秋季博士申请信息汇总',
+  base: '/apply-phd/',
   lastUpdated: true,
   cleanUrls: true,
 
